@@ -1,4 +1,4 @@
-FROM python:3.9-bullseye
+FROM python:3.11-bullseye
 LABEL org.opencontainers.image.source https://github.com/starrynightlabs/docker
 
 RUN apt-get update && apt-get install -y unzip awscli jq && rm -rf /var/lib/apt/lists/*
