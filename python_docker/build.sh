@@ -1,6 +1,6 @@
 #!/bin/bash
 
-name_tag="python_docker:3.9"
+name_tag="python_docker:3.11"
 
 docker buildx build --platform linux/amd64 -t starrynightlabs/$name_tag .
 
