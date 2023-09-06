@@ -4,7 +4,7 @@ LABEL org.opencontainers.image.source https://github.com/starrynightlabs/docker
 RUN \
     apt-get update \
     && apt-get install -y --no-install-recommends \
-        unzip awscli jq \
+        unzip awscli jq poppler-utils \
     && rm -rf /var/lib/apt/lists/*
 
 # Install docker for deployment
